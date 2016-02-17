@@ -4129,7 +4129,7 @@ section.featured article > a h3 {
 }
 
 section.hero.latest {
-  background-image: url("assets/images/hero-latest.svg");
+  background-image: url("assets/images/bg.png");
   background-color: #cccccc;
 }
 section.hero.latest article p {
@@ -4488,7 +4488,7 @@ section.single-post article .article-nav div.nav-next {
 }
 
 section.hero.archive-hero {
-  background-image: url("assets/images/hero-archive.jpg");
+  background-image: url("assets/images/bg.png");
   background-color: #cccccc;
 }
 section.hero.archive-hero article h3 {
@@ -4553,7 +4553,7 @@ section.archive article.right .button {
 }
 
 section.hero.about-hero {
-  background-image: url("assets/images/hero-about.svg");
+  background-image: url("assets/images/bg.png");
   background-color: #cccccc;
 }
 
@@ -4766,7 +4766,7 @@ section.about-clients {
 }
 
 section.contact {
-  background-image: url("assets/images/hero-contact.svg");
+  background-image: url("assets/images/bg.png");
   background-color: #cccccc;
 }
 
