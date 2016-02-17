@@ -1,0 +1,180 @@
+section.hero.about-hero {
+	background-image:url('assets/images/hero-about.svg');
+	background-color:$grey;
+}
+section.about-blocks {
+	&.aqua {
+		background:$grey;
+	}
+	&.blue {
+		background:$grey;
+		@media only screen and (max-width: $tablet-portrait) {
+			display:table;
+			.image {
+				display:table-footer-group;
+			}
+			.text {
+				display:table-header-group;
+				h3 {
+					padding: 40px 40px 0;
+				}
+				p {
+					padding: 20px 40px 40px;
+				}
+			}
+		}
+	}
+	&.orange {
+		background:$grey;
+		@media only screen and (max-width: $tablet-portrait) {
+			display:table;
+			.image {
+				display:table-footer-group;
+			}
+			.text {
+				display:table-header-group;
+				h3 {
+					padding: 40px 40px 0;
+				}
+				p {
+					padding: 20px 40px 40px;
+				}
+			}
+		}
+	}
+	padding:0;
+	display: table;
+	width: 100%;
+	article {
+		width:50%;
+	    display: table-cell;
+	    vertical-align: middle;
+		height:500px;
+		text-align:center;
+		@media only screen and (max-width: $tablet-portrait) {
+			display:block;
+			width:100%;
+			height:auto;
+		}
+		&.image {
+			font-size: 0;
+			overflow: hidden;
+			position: relative;
+			p {
+				position: absolute;
+				left: 50%;
+				top: 0;
+				margin-left: -500px;
+			    width: 1000px;
+				@media only screen and (max-width: $tablet-portrait) {
+				    position: relative;
+				    width: 100%;
+				    margin: 0;
+				    left: 0;
+				}
+			}
+		}
+		&.text {
+			padding:0 80px;
+			text-align:left;
+			@media only screen and (max-width: $tablet-portrait) {
+				padding:40px;
+			}
+			font-family:$font-reg;
+			h3 {
+				font-size:2.2em;
+				line-height:1.1em;
+				padding:0 0 20px 0;
+			}
+			p {
+				font-size:1.25em;
+				line-height:1.4em;
+				a {
+					display:block;
+					font-family:$font-bold;
+					padding-top:20px;
+				}
+			}
+			h4 {
+				font-family:$font-bold;
+				font-size:1.6em;
+			}
+			h5 {
+				font-family:$font-bold;
+				font-size:8em;
+				@media only screen and (max-width: $tablet-portrait) {
+					font-size:6em;
+				}
+				@media only screen and (max-width: $phone-portrait-large) {
+					font-size:5em;
+				}
+			}
+		}
+		img {
+			display: block;
+			margin: 0 auto;
+			width:auto;
+			height:500px;
+			@media only screen and (max-width: $tablet-portrait) {
+				width:100%;
+				height:auto;
+			}
+		}
+	}
+}
+section.about-services,
+section.about-clients {
+	background:$grey;
+	padding:50px;
+	article {
+		h3 {
+			font-size:2.2em;
+			line-height:1.1em;
+			padding:0 0 20px 0;
+		}
+		p {
+			font-size:1.25em;
+			line-height:1.4em;
+		}
+		a {
+			font-family:$font-bold;
+		}
+		.content-column {
+			margin:20px 0 0 0;
+			&.one_fourth {
+				padding:20px 20px 20px 0;
+				&.last_column {
+					padding:20px 0;
+				}
+			}
+			h4 {
+				font-size:1.6em;
+				height:80px;
+			}
+			p {
+				font-size:1.1em;
+				line-height:1.2em;
+			}
+			img {
+				max-width:188px;
+			}
+			&.one_third {
+				text-align:center;
+				padding:30px 20px 30px 0;
+				@media only screen and (max-width: $tablet-portrait) {
+					text-align:left;
+				}
+				&.last_column {
+					padding:30px 0;
+				}
+				img {
+					width:180px;
+					height:inherit !important;
+				}
+			}
+		}
+	}
+}
+section.about-clients {
+	background:$grey;
+}

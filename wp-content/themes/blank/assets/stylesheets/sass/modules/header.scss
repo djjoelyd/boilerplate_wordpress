@@ -1,0 +1,59 @@
+#header {
+	position:fixed;
+	background: $white;
+	width:100%;
+	padding: 20px 50px;
+	z-index:9999;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	height:60px;
+	&.smaller {
+		height:42px;
+		padding: 12px 50px;
+		h1 {
+			width:71px;
+			height:20px;
+			top: 12px;
+		}
+		.nav .menu,
+		.nav .menu-text,
+		.nav .menu-bg,
+		.nav .menu-burger {
+			top: 7px;
+			&.fs {
+				top:16px;
+			}
+		}
+	}
+	h1 {
+		text-indent:-9999px;
+		background:url('assets/images/logo.png') no-repeat;
+		background-size:contain;
+		width:108px;
+		height:30px;
+		position:absolute;
+		top: 15px;
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		-ms-transition: all 0.3s;
+		-o-transition: all 0.3s;
+		transition: all 0.3s;
+		a {
+			display:block;
+			height: inherit;
+		}
+	}
+	h2 {
+		text-align:center;
+		color:$grey;
+		font-size:1.25em;
+		line-height: 1em;
+		font-family:$font-med;
+		@media only screen and (max-width: $phone-portrait-large) {
+			display:none;
+		}
+	}
+}

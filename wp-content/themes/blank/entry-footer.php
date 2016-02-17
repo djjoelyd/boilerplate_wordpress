@@ -1,0 +1,1 @@
+<span class="cat-links"><?php the_category( ', ' ); ?></span>

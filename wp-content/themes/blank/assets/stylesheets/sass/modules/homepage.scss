@@ -1,0 +1,287 @@
+section {
+	&.hero.home {
+		background-image:url('assets/images/bg.png');
+		background-color:$grey;
+		h3 {
+			font-size:2.75em;
+			font-family:$font-bold;
+			margin-top:20px;
+			@media only screen and (max-width: $tablet-portrait) {
+				font-size:2em;
+			}
+			@media only screen and (max-width: $phone-portrait-large) {
+				font-size:1.5em;
+			}
+		}
+		p {
+			@media only screen and (max-width: $phone-portrait-large) {
+				font-size:1.25em;
+			}
+		}
+	}
+	&.carousel {
+		padding:0;
+	    position: relative;
+		height:500px !important;
+		@media only screen and (max-width: $phone-portrait-large) {
+			height:250px !important;
+		}
+		.slick-list {
+			@media only screen and (max-width: $phone-portrait-large) {
+				height:250px !important;
+			}
+		}
+		.carousel__list {
+			position: relative;
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			overflow:hidden;
+			.carousel__list-item {
+				height:500px !important;
+				position: relative;
+				display: block;
+				float: left;
+				margin: 0;
+				padding: 0;
+				width: 100%;
+				overflow:hidden;
+				@media only screen and (max-width: $phone-portrait-large) {
+					height:250px;
+				}
+				a {
+					display:block;
+					height:500px;
+					@media only screen and (max-width: $phone-portrait-large) {
+						height:250px;
+					}
+					.overlay {
+						position:absolute;
+						background:rgba(0, 145, 154, 0.8);
+						width:50%;
+						padding:4em;
+						display:table;
+						height:500px;
+						@media only screen and (max-width: $phone-portrait-large) {
+							height:250px;
+							padding:2em;
+						}
+						div {
+							display:table-cell;
+							vertical-align:middle;
+							position: relative;
+							.client-work {
+								position:absolute;
+								top:10%;
+								font-size:1.25em;
+								@media only screen and (max-width: $phone-portrait-large) {
+									font-size:1em;
+								}
+							}
+							.client-name {
+								font-family:$font-light;
+								font-size:1.9em;
+								@media only screen and (max-width: $tablet-portrait) {
+									font-size:1.5em;
+								}
+								@media only screen and (max-width: $phone-portrait-large) {
+									font-size:1.25em;
+								}
+							}
+							.client-summary {
+								font-size:3.8em;
+							    line-height: 1em;
+								@media only screen and (max-width: $tablet-portrait) {
+									font-size:2em;
+								}
+								@media only screen and (max-width: $phone-portrait-large) {
+									font-size:1.5em;
+								}
+							}
+						}
+					}
+					img {
+						width:100%;
+						@media only screen and (max-width: $tablet-portrait) {
+							height:500px;
+							width:auto;
+						}
+						@media only screen and (max-width: $phone-portrait-large) {
+							height:250px;
+							width:auto;
+						}
+					}
+				}
+			}
+		}
+		.slick-arrow {
+			position:absolute;
+			z-index:9;
+		    top: 40%;
+		    left: 10px;
+		    border: 0;
+		    text-indent: -9999px;
+			outline:none;
+			@media only screen and (max-width: $phone-portrait-large) {
+				display:none !important;
+			}
+		}
+		.slick-prev {
+			background: url("assets/images/arrow-left.png") no-repeat;
+			background-size:cover;
+			width:30px;
+			height:90px;
+		}
+		.slick-next {
+			background: url("assets/images/arrow-right.png") no-repeat;
+			background-size:cover;
+			width:30px;
+			height:90px;
+			right:10px;
+			left:inherit;
+		}
+		.slick-dots {
+			position:absolute;
+		    bottom: 40px;
+			left:50px;
+			@media only screen and (max-width: $phone-portrait-large) {
+				left:30px;
+				bottom: 30px;
+			}
+			li {
+				display:inline-block;
+				width:16px;
+				height:16px;
+				background:$white;
+				border-radius:50%;
+				border:1px solid $white;
+				margin-right:5px;
+				cursor:pointer;
+				&.slick-active {
+					background:$grey;
+					border:1px solid $grey;
+				}
+				button {
+				    border: 0;
+				    background: transparent;
+				    text-indent: -9999px;
+				}
+			}
+		}
+	}
+	&.featured {
+		padding:0;
+		width: 100%;
+		article {
+			width:50%;
+			@media only screen and (max-width: $tablet-portrait) {
+				width:100%;
+			}
+		    display: table;
+		    float: left;
+			position:relative;
+			height:250px;
+			opacity:0.9;
+			-webkit-transition: all 0.3s;
+			-moz-transition: all 0.3s;
+			-ms-transition: all 0.3s;
+			-o-transition: all 0.3s;
+			transition: all 0.3s;
+			@media only screen and (max-width: $tablet-portrait) {
+				opacity:1;
+			}
+			&:hover {
+				opacity:1;
+			}
+			&.large {
+				font-size:0;
+				height:500px;
+				opacity:1;
+				display:inline-block;
+				@media only screen and (max-width: $tablet-portrait) {
+					height:250px;
+				}
+				a {
+					padding:0;
+					display:block;
+					p {
+						text-align: center;
+						display:block;
+						overflow:hidden;
+						img {
+							width:auto;
+						    height: 500px;
+						    -webkit-transition: -webkit-transform 0.5s;
+						    transition: transform 0.5s;
+						    -webkit-transform: scale(1);
+						    transform: scale(1);
+							&:hover {
+								-webkit-transform: scale(1.05);
+								transform: scale(1.05);
+							}
+							@media only screen and (max-width: $tablet-portrait) {
+							    width: 100%;
+							    margin: 0 auto;
+							    display: block;
+							}
+							@media only screen and (max-width: $phone-portrait-large) {
+							    width: auto;
+							    height: 250px;
+							}
+						}
+					}
+				}
+				.overlay {
+					position:absolute;
+					bottom:50px;
+					z-index:1;
+					width:100%;
+					padding:0 50px;
+					font-size:16px;
+					h4 {
+						font-size:1.25em;
+						font-family:$font-light;
+						margin-bottom:10px;
+					}
+					h3 {
+						font-size:2.5em;
+						line-height:1em;
+						@media only screen and (max-width: $tablet-portrait) {
+							font-size:2em;
+						}
+					}
+					a {
+						&:hover {
+							text-decoration:none;
+						}
+					}
+				}
+			}
+			> a {
+				display:table-cell;
+				vertical-align:bottom;
+				position:relative;
+				height: 100%;
+				padding:40px 50px;
+				background-size:cover !important;
+				background-position:center !important;
+				background-repeat:no-repeat;
+				&:hover {
+					text-decoration:none;
+				}
+				h4 {
+					font-size:1.25em;
+					font-family:$font-light;
+					margin-bottom:10px;
+				}
+				h3 {
+					font-size:2.5em;
+					line-height:1em;
+					@media only screen and (max-width: $tablet-portrait) {
+						font-size:2em;
+					}
+				}
+			}
+		}
+	}
+}

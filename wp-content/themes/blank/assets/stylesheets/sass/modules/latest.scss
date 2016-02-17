@@ -1,0 +1,107 @@
+section.hero.latest {
+	background-image:url('assets/images/hero-latest.svg');
+	background-color:$grey;
+	article {
+		p {
+			color:$black;
+		}
+	}
+}
+section.latest-posts {
+	padding:0;
+	article {
+		width:50%;
+	    display: table;
+	    float: left;
+		position:relative;
+		height:250px;
+		overflow:hidden;
+		@media only screen and (max-width: $tablet-portrait) {
+			width:100%;
+			float: none;
+		}
+		img {
+			display:none;
+		}
+		a {
+			display:table-cell;
+			vertical-align:bottom;
+			position:relative;
+			height: 100%;
+			padding:40px 50px;
+			background-size:cover !important;
+			background-position:center !important;
+			background-repeat:no-repeat;
+			opacity:0.9;
+			-webkit-transition: all 0.3s;
+			-moz-transition: all 0.3s;
+			-ms-transition: all 0.3s;
+			-o-transition: all 0.3s;
+			transition: all 0.3s;
+			@media only screen and (max-width: $tablet-portrait) {
+				opacity:1;
+			}
+			&:hover {
+				opacity:1;
+				text-decoration:none;
+			}
+		}
+		&.left,
+		&.right {
+			height:500px;
+			@media only screen and (max-width: $tablet-portrait) {
+				height:250px;
+			}
+		    a {
+				opacity:1;
+				background-size:160% !important;
+				transition:all 0.5s ;
+				-webkit-transition:all 0.5s ;
+				-o-transition:all 0.5s ;
+				-moz-transition:all 0.5s ;
+				@media only screen and (max-width: $desktop) {
+					background-size:auto 500px !important;
+				}
+				&:hover {
+					background-size:150% !important;
+					text-decoration:none;
+					@media only screen and (max-width: $desktop) {
+						background-size:auto 530px !important;
+					}
+				}
+		    }
+		}
+		&.right {
+			float:right;
+		}
+		&.none {
+			a {
+				background-image:none !important;
+			}
+		}
+		.categoryLink {
+			font-family:$font-light;
+		}
+		h3 {
+			font-family:$font-reg;
+			font-size:2.5em;
+			line-height:1em;
+			@media only screen and (max-width: $large-desktop) {
+				font-size:2.2em;
+			}
+		}
+	}
+}
+section.archivefooter {
+	clear:both;
+	background:$grey;
+	padding:25px 0;
+	text-align:center;
+	a {
+		font-family:$font-med;
+		font-size:1.8em;
+		&:hover {
+			text-decoration:none;
+		}
+	}
+}

@@ -1,0 +1,88 @@
+section.contact {
+	background-image:url('assets/images/hero-contact.svg');
+	background-color:$grey;
+}
+section.contact-main {
+	padding:0;
+	article {
+		width:50%;
+		float:left;
+		padding:50px;
+		height:250px;
+		@media only screen and (max-width: $phone-portrait-large) {
+			width:100%;
+			float:none;
+		}
+		@media only screen and (max-width: $phone-portrait-small) {
+			padding:30px 50px;
+		}
+		h3 {
+			font-family:$font-med;
+			font-size:2.5em;
+			@media only screen and (max-width: $phone-portrait-large) {
+				font-size:2em;
+			}
+		}
+		p {
+			font-family:$font-light;
+			font-size:1.2em;
+			margin:10px 0;
+		}
+		.email {
+			display:block;
+			font-family:$font-med;
+			font-size:1.2em;
+		}
+		&.new-business {
+			background:$grey;
+		}
+		&.careers {
+			background:$grey;
+		}
+		&.map {
+			padding:0;
+			width:100%;
+			height:500px;
+			clear:both;
+			display: table;
+			#map {
+				position:absolute;
+				background: $grey;
+				width:100%;
+				height:500px;
+			}
+			.overlay {
+				position:relative;
+			    display: table-cell;
+			    vertical-align: middle;
+				padding:10% 110px 0;
+				background:rgba(0, 145, 154, 0.8);
+			    width: 50%;
+				height:500px;
+			    float: left;
+				@media only screen and (max-width: $phone-portrait-large) {
+					width:100%;
+					float:none;
+					display:block;
+					height:250px;
+					padding:50px;
+				}
+				h3 {
+					font-family:$font-reg;
+					font-size:2.5em;
+					@media only screen and (max-width: $phone-portrait-large) {
+						font-size:2em;
+					}
+				}
+				p {
+					font-family:$font-light;
+					color:$white;
+					font-size:1.25em;
+					@media only screen and (max-width: $phone-portrait-large) {
+						font-size:1em;
+					}
+				}
+			}
+		}
+	}
+}

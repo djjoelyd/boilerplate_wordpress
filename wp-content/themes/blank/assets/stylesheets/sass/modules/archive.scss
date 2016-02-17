@@ -1,0 +1,69 @@
+section.hero.archive-hero {
+	background-image:url('assets/images/hero-archive.jpg');
+	background-color:$grey;
+	article {
+		h3 {
+			margin-top: 0;
+		}
+	}
+	&:after {
+		display:none !important;
+	}
+}
+section.archive {
+	display:table;
+	padding:0;
+	width: 100%;
+	article {
+		&.left,
+		&.right {
+			width:50%;
+			display: table-cell;
+			padding:50px;
+			text-align:left;
+			font-family:$font-reg;
+			@media only screen and (max-width: $phone-portrait-large) {
+				width:100%;
+				display:block;
+			}
+			h6 {
+				font-size:2.1em;
+				padding:20px 0;
+			}
+			ul {
+				list-style-type:none;
+				li {
+					font-size:1.25em;
+					margin-bottom:10px;
+					a {
+						&:hover {
+							text-decoration:underline;
+						}
+					}
+				}
+			}
+		}
+		&.left {
+			//Hidden until more content
+			display:none;
+			background:$grey;
+			#s {
+				width:100%;
+				height:50px;
+				background:$grey;
+				border:0;
+				color:$white;
+				padding:10px;
+				font-size:2em;
+				outline: none;
+			}
+		}
+		&.right {
+			background:$grey;
+			.button {
+				margin:0;
+				padding-top: 20px;
+			}
+		}
+	}
+}

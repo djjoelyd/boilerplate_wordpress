@@ -1,0 +1,194 @@
+@font-face {
+    font-family: 'gt_walsheimblack_oblique';
+    src: url('assets/fonts/gt-walsheim-black-oblique-webfont.eot');
+    src: url('assets/fonts/gt-walsheim-black-oblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/gt-walsheim-black-oblique-webfont.woff2') format('woff2'),
+         url('assets/fonts/gt-walsheim-black-oblique-webfont.woff') format('woff'),
+         url('assets/fonts/gt-walsheim-black-oblique-webfont.ttf') format('truetype'),
+         url('assets/fonts/gt-walsheim-black-oblique-webfont.svg#gt_walsheimblack_oblique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gt_walsheimblack';
+    src: url('assets/fonts/gt-walsheim-black-webfont.eot');
+    src: url('assets/fonts/gt-walsheim-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/gt-walsheim-black-webfont.woff2') format('woff2'),
+         url('assets/fonts/gt-walsheim-black-webfont.woff') format('woff'),
+         url('assets/fonts/gt-walsheim-black-webfont.ttf') format('truetype'),
+         url('assets/fonts/gt-walsheim-black-webfont.svg#gt_walsheimblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gt_walsheimbold_oblique';
+    src: url('assets/fonts/gt-walsheim-bold-oblique-webfont.eot');
+    src: url('assets/fonts/gt-walsheim-bold-oblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/gt-walsheim-bold-oblique-webfont.woff2') format('woff2'),
+         url('assets/fonts/gt-walsheim-bold-oblique-webfont.woff') format('woff'),
+         url('assets/fonts/gt-walsheim-bold-oblique-webfont.ttf') format('truetype'),
+         url('assets/fonts/gt-walsheim-bold-oblique-webfont.svg#gt_walsheimbold_oblique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gt_walsheimbold';
+    src: url('assets/fonts/gt-walsheim-bold-webfont.eot');
+    src: url('assets/fonts/gt-walsheim-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/gt-walsheim-bold-webfont.woff2') format('woff2'),
+         url('assets/fonts/gt-walsheim-bold-webfont.woff') format('woff'),
+         url('assets/fonts/gt-walsheim-bold-webfont.ttf') format('truetype'),
+         url('assets/fonts/gt-walsheim-bold-webfont.svg#gt_walsheimbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gt_walsheimlight_oblique';
+    src: url('assets/fonts/gt-walsheim-light-oblique-webfont.eot');
+    src: url('assets/fonts/gt-walsheim-light-oblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/gt-walsheim-light-oblique-webfont.woff2') format('woff2'),
+         url('assets/fonts/gt-walsheim-light-oblique-webfont.woff') format('woff'),
+         url('assets/fonts/gt-walsheim-light-oblique-webfont.ttf') format('truetype'),
+         url('assets/fonts/gt-walsheim-light-oblique-webfont.svg#gt_walsheimlight_oblique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gt_walsheimlight';
+    src: url('assets/fonts/gt-walsheim-light-webfont.eot');
+    src: url('assets/fonts/gt-walsheim-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/gt-walsheim-light-webfont.woff2') format('woff2'),
+         url('assets/fonts/gt-walsheim-light-webfont.woff') format('woff'),
+         url('assets/fonts/gt-walsheim-light-webfont.ttf') format('truetype'),
+         url('assets/fonts/gt-walsheim-light-webfont.svg#gt_walsheimlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gt_walsheimmedium_oblique';
+    src: url('assets/fonts/gt-walsheim-medium-oblique-webfont.eot');
+    src: url('assets/fonts/gt-walsheim-medium-oblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/gt-walsheim-medium-oblique-webfont.woff2') format('woff2'),
+         url('assets/fonts/gt-walsheim-medium-oblique-webfont.woff') format('woff'),
+         url('assets/fonts/gt-walsheim-medium-oblique-webfont.ttf') format('truetype'),
+         url('assets/fonts/gt-walsheim-medium-oblique-webfont.svg#gt_walsheimmedium_oblique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gt_walsheimmedium';
+    src: url('assets/fonts/gt-walsheim-medium-webfont.eot');
+    src: url('assets/fonts/gt-walsheim-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/gt-walsheim-medium-webfont.woff2') format('woff2'),
+         url('assets/fonts/gt-walsheim-medium-webfont.woff') format('woff'),
+         url('assets/fonts/gt-walsheim-medium-webfont.ttf') format('truetype'),
+         url('assets/fonts/gt-walsheim-medium-webfont.svg#gt_walsheimmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gt_walsheimregular_oblique';
+    src: url('assets/fonts/gt-walsheim-regular-oblique-webfont.eot');
+    src: url('assets/fonts/gt-walsheim-regular-oblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/gt-walsheim-regular-oblique-webfont.woff2') format('woff2'),
+         url('assets/fonts/gt-walsheim-regular-oblique-webfont.woff') format('woff'),
+         url('assets/fonts/gt-walsheim-regular-oblique-webfont.ttf') format('truetype'),
+         url('assets/fonts/gt-walsheim-regular-oblique-webfont.svg#gt_walsheimregular_oblique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gt_walsheim_regularregular';
+    src: url('assets/fonts/gt-walsheim-regular-webfont.eot');
+    src: url('assets/fonts/gt-walsheim-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/gt-walsheim-regular-webfont.woff2') format('woff2'),
+         url('assets/fonts/gt-walsheim-regular-webfont.woff') format('woff'),
+         url('assets/fonts/gt-walsheim-regular-webfont.ttf') format('truetype'),
+         url('assets/fonts/gt-walsheim-regular-webfont.svg#gt_walsheim_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gt_walsheimthin_oblique';
+    src: url('assets/fonts/gt-walsheim-thin-oblique-webfont.eot');
+    src: url('assets/fonts/gt-walsheim-thin-oblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/gt-walsheim-thin-oblique-webfont.woff2') format('woff2'),
+         url('assets/fonts/gt-walsheim-thin-oblique-webfont.woff') format('woff'),
+         url('assets/fonts/gt-walsheim-thin-oblique-webfont.ttf') format('truetype'),
+         url('assets/fonts/gt-walsheim-thin-oblique-webfont.svg#gt_walsheimthin_oblique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gt_walsheimthin';
+    src: url('assets/fonts/gt-walsheim-thin-webfont.eot');
+    src: url('assets/fonts/gt-walsheim-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/gt-walsheim-thin-webfont.woff2') format('woff2'),
+         url('assets/fonts/gt-walsheim-thin-webfont.woff') format('woff'),
+         url('assets/fonts/gt-walsheim-thin-webfont.ttf') format('truetype'),
+         url('assets/fonts/gt-walsheim-thin-webfont.svg#gt_walsheimthin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gt_walsheimultra_bold_oblique';
+    src: url('assets/fonts/gt-walsheim-ultra-bold-oblique-webfont.eot');
+    src: url('assets/fonts/gt-walsheim-ultra-bold-oblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/gt-walsheim-ultra-bold-oblique-webfont.woff2') format('woff2'),
+         url('assets/fonts/gt-walsheim-ultra-bold-oblique-webfont.woff') format('woff'),
+         url('assets/fonts/gt-walsheim-ultra-bold-oblique-webfont.ttf') format('truetype'),
+         url('assets/fonts/gt-walsheim-ultra-bold-oblique-webfont.svg#gt_walsheimultra_bold_oblique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gt_walsheimultra_bold';
+    src: url('assets/fonts/gt-walsheim-ultra-bold-webfont.eot');
+    src: url('assets/fonts/gt-walsheim-ultra-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/gt-walsheim-ultra-bold-webfont.woff2') format('woff2'),
+         url('assets/fonts/gt-walsheim-ultra-bold-webfont.woff') format('woff'),
+         url('assets/fonts/gt-walsheim-ultra-bold-webfont.ttf') format('truetype'),
+         url('assets/fonts/gt-walsheim-ultra-bold-webfont.svg#gt_walsheimultra_bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gt_walsheimultraLtOb';
+    src: url('assets/fonts/gt-walsheim-ultra-light-oblique-webfont.eot');
+    src: url('assets/fonts/gt-walsheim-ultra-light-oblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/gt-walsheim-ultra-light-oblique-webfont.woff2') format('woff2'),
+         url('assets/fonts/gt-walsheim-ultra-light-oblique-webfont.woff') format('woff'),
+         url('assets/fonts/gt-walsheim-ultra-light-oblique-webfont.ttf') format('truetype'),
+         url('assets/fonts/gt-walsheim-ultra-light-oblique-webfont.svg#gt_walsheimultraLtOb') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gt_walsheimultra_light';
+    src: url('assets/fonts/gt-walsheim-ultra-light-webfont.eot');
+    src: url('assets/fonts/gt-walsheim-ultra-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/gt-walsheim-ultra-light-webfont.woff2') format('woff2'),
+         url('assets/fonts/gt-walsheim-ultra-light-webfont.woff') format('woff'),
+         url('assets/fonts/gt-walsheim-ultra-light-webfont.ttf') format('truetype'),
+         url('assets/fonts/gt-walsheim-ultra-light-webfont.svg#gt_walsheimultra_light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'Gotham Light';
+	src: url('assets/fonts/Gotham-Light.eot');
+	src: url('assets/fonts/Gotham-Light.eot?#iefix') format('embedded-opentype'),
+		url('assets/fonts/Gotham-Light.woff') format('woff'),
+		url('assets/fonts/Gotham-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Gotham Book';
+	src: url('assets/fonts/Gotham-Book.eot');
+	src: url('assets/fonts/Gotham-Book.eot?#iefix') format('embedded-opentype'),
+		url('assets/fonts/Gotham-Book.woff') format('woff'),
+		url('assets/fonts/Gotham-Book.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}

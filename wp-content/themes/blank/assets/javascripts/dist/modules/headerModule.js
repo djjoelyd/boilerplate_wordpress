@@ -1,0 +1,1 @@
+define(["jquery"],function(e){"use strict";function n(){t=this,this.func()}var t;return n.prototype.func=function(){e("header").html("<h1>JS INSERTED HEADER</h1>")},n});

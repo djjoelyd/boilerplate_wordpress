@@ -1,0 +1,72 @@
+.down {
+	display:block;
+	background:url('assets/images/arrow-down.png') no-repeat;
+	background-size:cover;
+	width:36px;
+	height:12px;
+	position:absolute;
+    bottom: 40px;
+    left: 50px;
+	text-indent:-9999px;
+	&:before {
+	    content: "Scroll down";
+	    display: block;
+	    position: absolute;
+	    width: 120px;
+	    bottom: 30px;
+	    text-indent: 0;
+		font-size:1.25em;
+		@media only screen and (max-width: $tablet-portrait) {
+			bottom: 60px;
+		}
+	}
+	@media only screen and (max-width: $phone-landscape-large) {
+		display:none;
+	}
+}
+.button {
+	display: block;
+    width: 75px;
+    height: 75px;
+    border: 2px solid $grey;
+    border-radius: 50%;
+    color: $white;
+    text-align: center;
+    text-decoration: none;
+    background: $grey;
+    box-shadow: 0;
+    font-size: 0.9em;
+    line-height: 1.2em;
+    font-weight: bold;
+    padding-top: 16px;
+    margin: 30px 0 0;
+	&.more {
+	    width: 100px;
+	    height: 100px;
+	    border: 2px solid $grey;
+	    background: $grey;
+	    font-size: 1.25em;
+	    line-height: 1em;
+		padding: 16px;
+	}
+}
+.archive-link {
+	display: block;
+    width: 100px;
+    height: 100px;
+    border: 2px solid $grey;
+    border-radius: 50%;
+    color: $white !important;
+    text-align: center;
+    text-decoration: none;
+    background: $grey;
+    box-shadow: 0;
+    font-size: 1.25em;
+    line-height: 1em;
+    font-weight: bold;
+	padding: 38px 16px;
+    margin: 30px 0 0;
+	&:hover {
+		text-decoration:none;
+	}
+}

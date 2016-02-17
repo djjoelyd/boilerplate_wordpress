@@ -1,0 +1,1 @@
+define(["jquery"],function(e){"use strict";function n(){t=this,this.func()}var t;return n.prototype.func=function(){e("section article").html("<h2>JS INSERTED SECTION</h2>")},n});

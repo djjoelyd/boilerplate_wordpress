@@ -1,0 +1,219 @@
+section.single-post {
+	padding:0;
+	article {
+		header {
+			background-repeat:no-repeat;
+			background-size:cover !important;
+			font-family:$font-med;
+			position:relative;
+			.overlay {
+				background:rgba(0, 0, 0, 0.25);
+				padding:130px 200px;
+				@media only screen and (max-width: $tablet-portrait) {
+					padding:100px;
+				}
+				@media only screen and (max-width: $phone-portrait-large) {
+					padding:50px;
+				}
+				.entry-date {
+					font-size:1.3em;
+				}
+				h1 {
+					padding:10px 0 0 0;
+					font-size:3.7em;
+					line-height:1em;
+					@media only screen and (max-width: $tablet-portrait) {
+						font-size:2.5em;
+						padding:10px 0;
+					}
+					@media only screen and (max-width: $phone-portrait-large) {
+						padding:10px 0 40px;
+					}
+				}
+				.down {
+					position:inherit;
+					left:0px;
+					margin-top:100px;
+					bottom:inherit;
+					&:before {
+						bottom: 150px;
+						@media only screen and (max-width: $tablet-portrait) {
+							bottom: 120px;
+						}
+					}
+				}
+			}
+		}
+		section.entry-content {
+			color:$grey;
+			padding:50px 100px;
+			@media only screen and (max-width: $phone-portrait-large) {
+				padding:50px;
+			}
+			.cat-links {
+				padding-bottom:10px;
+				font-size:0.9em;
+				display: block;
+			}
+			h3 {
+				font-family:$font-bold;
+				font-size:1.9em;
+				padding:5px 0 20px;
+			}
+			p {
+				font-size:1.2em;
+				padding:10px 0;
+			}
+			img {
+				max-width: 768px;
+				height: auto;
+				@media only screen and (max-width: $tablet-portrait) {
+					width: 100%;
+				}
+			}
+			.entry-author {
+				margin-top:20px;
+				font-family:$font-bold;
+				font-size:1.25em;
+				display:block;
+				color:$grey;
+			}
+			.entry-date {
+				font-family:$font-med;
+				font-size:1.25em;
+				display:block;
+				color:$grey;
+			}
+			.social {
+				float:right;
+				margin-bottom:20px;
+				margin-top:84px;
+				a {
+					display:inline-block;
+					text-indent:-9999px;
+					width:45px;
+					height:45px;
+					margin-right:5px;
+					background-size:cover !important;
+					&.linkedin {
+						background:url('assets/images/icon_linkedin.png');
+					}
+					&.twitter {
+						background:url('assets/images/icon_twitter.png');
+					}
+				}
+				&:before {
+					content:"Share: ";
+					color:$grey;
+					display:block;
+					margin:12px 10px 0px 0px;
+					float:left;
+				}
+				@media only screen and (max-width: $phone-portrait-large) {
+					float:none;
+					margin:20px 0;
+					&:before {
+						display:none;
+					}
+				}
+			}
+			.toTop {
+				margin:20px auto 0;
+				text-align:center;
+				display:block;
+				font-size:1.8em;
+				&:before {
+					content:"";
+					display:block;
+					background:url('assets/images/back-top.png');
+					background-size:cover;
+					width:75px;
+					height:75px;
+					margin:0 auto 10px;
+				}
+				&:hover {
+					text-decoration:none;
+				}
+			}
+		}
+		.article-nav {
+			width:100%;
+			clear:both;
+			div {
+			    width: 50%;
+			    display: block;
+			    margin: 0;
+			    float: left;
+				font-size:1.2em;
+				font-family:$font-med;
+				position:relative;
+				@media only screen and (max-width: $phone-portrait-large) {
+					width: 100%;
+					float: none;
+				}
+				a {
+					text-decoration:none;
+				}
+				span {
+					display:block;
+					font-size:1.25em;
+					width:100%;
+					@media only screen and (max-width: $tablet-portrait) {
+						width: 100%;
+						white-space: nowrap;
+						overflow: hidden;
+						text-overflow: ellipsis;
+					}
+					
+				}
+				&.nav-previous,
+				&.nav-next {
+					opacity:0.75;
+					transition:all 0.5s;
+					-webkit-transition:all 0.5s;
+					-o-transition:all 0.5s;
+					-moz-transition:all 0.5s;
+					background-size: cover !important;
+					&:hover {
+						opacity:1;
+					}
+					&.empty {
+						padding:80px 70px;
+						@media only screen and (max-width: $tablet-portrait) {
+							padding:30px 0;
+						}
+						span {
+							font-size:1.5em;
+							padding:26px 0px;
+							@media only screen and (max-width: $tablet-portrait) {
+								padding:26px 70px;
+							}
+						}
+					}
+					> div {
+						padding:72px 70px;
+						width:100%;
+						background-color: rgba(0,0,0,0.25);
+						min-height: 250px;
+						max-height: 250px;
+						font-family:$font-light;
+						span {
+							font-family:$font-med;
+						}
+						@media only screen and (max-width: $tablet-portrait) {
+							padding:45px 70px;
+							min-height: 150px;
+							max-height: 150px;
+						}
+					}
+				}
+				&.nav-previous {
+					background:$grey;
+				}
+				&.nav-next {
+					background:$grey;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+  "name": "boilerplate",
+  "version": "0.0.1",
+  "description": "Boilerplate",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joel Delane",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-autoprefixer": "~1.0.1",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-jshint": "~0.3.0",
+    "grunt-contrib-requirejs": "^0.4.4",
+    "grunt-contrib-sass": "~0.8.1",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-watch": "~0.3.1"
+  },
+  "dependencies": {
+    "grunt-legacy-util": "^0.2.0"
+  }
+}
